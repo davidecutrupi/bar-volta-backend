@@ -1,0 +1,12 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] { -moz-appearance: textfield; }
+
+
+html { scroll-behavior: smooth; object-position: none; }
+span, input, label, a, button, textarea { font-family: 'Montserrat', sans-serif; }
+span, label { user-select: none; }
+img { pointer-events: none; user-select: none; object-fit: cover; }

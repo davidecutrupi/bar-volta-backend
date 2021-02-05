@@ -1,0 +1,29 @@
+{
+  "name": "bar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "fastify start index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "ejs": "^3.1.5",
+    "fastify": "^3.11.0",
+    "fastify-cli": "^2.7.0",
+    "fastify-cookie": "^5.1.0",
+    "fastify-env": "^2.1.0",
+    "fastify-jwt": "^2.3.0",
+    "fastify-mongodb": "^2.0.1",
+    "fastify-plugin": "^3.0.0",
+    "point-of-view": "^4.10.0"
+  },
+  "devDependencies": {
+    "snazzy": "^9.0.0",
+    "standard": "^16.0.3"
+  }
+}
